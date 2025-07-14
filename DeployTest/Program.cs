@@ -4,8 +4,8 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-    app.MapOpenApi();
-    app.MapScalarApiRefrence();
+app.MapOpenApi();
+app.MapScalarApiRefrence();
 
 app.UseHttpsRedirection();
 
